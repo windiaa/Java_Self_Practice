@@ -8,6 +8,9 @@ public class ArrayElements {
 
         for (int i = 1; i < numbers.length+1; i++) {
             System.out.print(i + " " );
+            // number in loop is indicate for "index" ex: i = "1", 1 is index
+            // but number.length is variable so if length 10 then the index is 9.because
+            // index start from 0
         }
 
         System.out.println( );

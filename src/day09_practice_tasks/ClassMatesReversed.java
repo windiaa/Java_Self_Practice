@@ -12,6 +12,9 @@ public class ClassMatesReversed {
         reversed[j] = "\n" + classmatesName[i].substring(classmatesName[i].indexOf(" ") +1)
         + " " + classmatesName[i].substring(0,classmatesName[i].indexOf(" "));
         }
+
         System.out.println(Arrays.toString(reversed));
+
+
     }
 }
